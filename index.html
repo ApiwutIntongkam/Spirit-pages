@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<body id="p">
+	
+		<button onclick="Color()">Changecolor</button>
+		<button onclick="text()">Text</button>
+		
+		
+		<script>
+ 		function Color(){
+ 		    var color=prompt("What color?");
+ 		    document.getElementById("p").style.color = color;
+		    
+		    
+ 		}
+		function text(){
+		
+		    var one = document.createElement("h1");
+		    one.innerHTML = "Go Broncos";
+		    document.body.appendChild(one);
+		}
+
+		
+		    
+		</script>
+		
+	</body>
+</html>
